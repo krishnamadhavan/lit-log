@@ -3,6 +3,6 @@ An app to track time spent reading books
 
 ## How to Run
 
-```bash
+```shell
 CompileDaemon -command="./lit-log"
 ```
