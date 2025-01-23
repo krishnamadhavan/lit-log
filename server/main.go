@@ -5,7 +5,10 @@ import (
 	"github.com/krishnamadhavan/lit-log/initializers"
 )
 
+func init() {
 	initializers.LoadEnvVariables()
+	initializers.ConnectToDatabase()
+}
 
 func main() {
 	r := gin.Default()
