@@ -2,8 +2,10 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/krishnamadhavan/lit-log/initializers"
 )
 
+	initializers.LoadEnvVariables()
 
 func main() {
 	r := gin.Default()
